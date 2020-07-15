@@ -1,0 +1,37 @@
+.footer{
+	padding: 5px;
+	background-color: #D1C4E9;
+}
+.jumbotron{
+	background-color:#9575CD;
+	color: floralwhite; 
+}
+.address{
+	font-size: 80%;
+	color: 0f0f0f;
+}
+.row-content{
+	margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+.about{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+.tab-content
+{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}

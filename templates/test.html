@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function f() {
+			alert("welcome to web page");
+		}
+	</script>
+</head>
+<body>
+	<form name="loginform" action="logincheck.jsp" method="get">
+		<select name="courses">
+			<optgroup label="Programming language">
+				<option value="c">C programing</option>
+				<option value="cpp">C++</option>
+				<option value="dsa">data structure</option>
+			</optgroup>
+			<optgroup label="basic courses">
+				<option value="tally">tally</option>
+				<option value="basic">basic</option>
+			</optgroup>
+		</select>
+		<br />
+		Gender<input type="radio" name="Gender" value="male" checked="checked" />Male
+		<input type="radio" name="Gender" value="Female" />FeMale<br>
+		<input type="checkbox" name="conv" value="conv">conveyance<br>
+		<input type="checkbox" name="ft" value="ft">Fast track<br>	
+		<input type="file" name="photo" accept="application/pdf,application/vnd.ms-excel,image/*"><br>
+		<input type="hidden" name="cost" value="5000"><br>
+		Time<input type="time"><br>
+		Date<input type="date"><br>
+		color<input type="color"><br>
+		datetime<input type="datetime"><br>
+		email<input type="email"><br>
+		month<input type="month"><br>
+		number<input type="number"><br>
+		range<input type="range"><br>
+		tel<input type="tel"><br>
+		url<input type="url"><br>
+		week<input type="week"><br>
+		<input type="button" name="okay" onclick="f()" value="button"><br>
+		<button onclick="f()"> click on me</button><br>
+
+		<audio src="music.mp3" controls=""> </audio><br><br><br>
+		<video width="400" height="400" controls src="video.mkv" autoplay="autoplay" muted="muted"></video><br><br><br>
+		<video width="400" height="400" controls src="video.mkv"></video>
+		<input type="submit" name="b1" value="send" />
+	</form>
+
+</body>
+</html>
